@@ -3,14 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/style.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="odin-recipes/pizza.html">Homemade Pizza</a></li>
-        <li><a href="odin-recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="odin-recipes/ravioli.html">Ravioli Pomodoro</a></li>
-    </ul>
+    <div class="navbar">
+        <div class="logo">
+            <h1>Odin Recipes</h1>
+        </div>
+        <div class="links-container">
+            <ul class="links">
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <h1>YOUR COOKING GOD</h1>
+        <p>
+            Go throught the light of guidance Odin's Recipes has to offer whenever you're feeling like doing something great but simple-made.
+            Have fun exploring all the tasteful recipes we curated for you and your folks.
+        </p>
+        <button>Get Started</button>
+    </div>
+   
+    <div id="recipes">
+        <h2>This week's specials</h2>
+        <p>Get a glance of the special treats people are going nuts after tasting them for the first time, made to a god-liking standard.</p>
+        <!-- Card -->
+        <div id="card-container">
+            <!-- Pizza -->
+            <div id="container">
+                <div class="card">
+                    <img src="images/pizza.jpg" alt="Lago di Braies">
+                    <div class="card__details">
+                        <div class="name">Homemade Pizza</div>
+                        <p>Making homemade pizza dough can sound like a lot of work, but it's so worth the bragging rights.
+                            The dough itself requires few ingredients</p>
+                        <button onclick="window.location.href='odin-recipes/pizza.html'">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Lasagna -->
+            <div id="container">
+                <div class="card">
+                    <img src="images/lasagna.jpg" alt="Lago di Braies">
+                    <div class="card__details">
+                        <div class="name">Lasagna</div>
+                        <p>LWhen layers of cheesy lasagna come together flawlessly, that's amore! Pile on beefy marinara sauce,
+                            delicious noodles, ad a blend of cheese, then kick</p>
+                        <button onclick="window.location.href='odin-recipes/lasagna.html'">Read more</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ravioli -->
+            <div id="container">
+                <div class="card">
+                <img src="images/ravioli.jpg" alt="Lago di Braies">
+                <div class="card__details">
+                    <div class="name">Ravioli Pomodoro</div>
+                    <p>Jazz up store-bought ravioli with a super quick homemade tomato sauce full of fragant onion,
+                        garlic, and basil. The sauce is super</p>
+                    <button onclick="window.location.href='odin-recipes/ravioli.html'">Read more</button>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Antutu. Site under construction.</p>
+    </footer>
+    <script src="statics/script.js"></script>
 </body>
 </html>
