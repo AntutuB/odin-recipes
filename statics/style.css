@@ -193,3 +193,35 @@ footer p {
         text-align: center;
     }
 }
+
+@media only screen and (min-width:450px) and (max-with: 768px) {
+    .links-container{
+        width: 100%;
+    }
+
+    .links {
+        justify-content: space-around;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main h1 {
+        width: 15ch;
+        text-align: center;
+    }
+
+    .main p {
+        width: 45ch;
+    }
+
+    #recipes {
+        width: 100%;
+    }
+
+    #recipes>p {
+        width: 45ch;
+        text-align: center;
+    }
+}
