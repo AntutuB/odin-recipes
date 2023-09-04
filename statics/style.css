@@ -150,6 +150,25 @@
     color: #fff;
 }
 
+#about-us {
+    width: 960px;
+    display: block;
+    margin: 0 auto;
+}
+
+#about-us h2 {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 6rem;
+}
+
+#about-us p {
+    margin: 0 auto;
+    width: 70ch;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
 footer {
     width: 100%;
     margin-top: 4rem;
@@ -192,6 +211,14 @@ footer p {
         width: 30ch;
         text-align: center;
     }
+
+    #about-us {
+        width: 100%;
+    }
+
+    #about-us p {
+        width: 40ch;
+    }
 }
 
 @media only screen and (min-width:451px) and (max-width: 768px) {
@@ -223,5 +250,13 @@ footer p {
     #recipes>p {
         width: 45ch;
         text-align: center;
+    }
+
+    #about-us {
+        width: 100%;
+    }
+
+    #about-us p {
+        width: 50ch;
     }
 }
