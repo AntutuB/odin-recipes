@@ -217,7 +217,9 @@ footer p {
     }
 
     #about-us p {
-        width: 40ch;
+        width: 35ch;
+        text-align: left;
+        padding: 0 0.5rem;
     }
 }
 
