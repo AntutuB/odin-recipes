@@ -162,7 +162,7 @@ footer p {
     padding: 1rem;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .links-container{
         width: 100%;
     }
